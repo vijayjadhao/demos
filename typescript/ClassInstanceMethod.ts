@@ -1,5 +1,5 @@
 class Person {
-    firstName: string; //instance variable declaration; no use of var k/w
+    private firstName: string; //instance variable declaration; no use of var k/w
 
     //setter method; instance method; no use of function k/w
     setName(pname): void {

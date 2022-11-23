@@ -1,8 +1,8 @@
 class Greeting {
-    greet():void {
+    greet():void {  //instance method
         console.log("Hello World!!!")
     }
 }
 
-var obj = new Greeting();
+var obj = new Greeting(); //object=instance
 obj.greet();
